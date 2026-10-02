@@ -7,6 +7,7 @@ import Services from "./component/Services";
 import Work from "./component/Work";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
+import PageGlow from "./component/PageGlow";
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -26,7 +27,8 @@ export default function Home() {
   };
 
   return (
-    <>
+    <div className="relative">
+      <PageGlow />
       <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
       <Header isDarkMode={isDarkMode} />
       <About isDarkMode={isDarkMode} />
@@ -34,6 +36,6 @@ export default function Home() {
       <Work isDarkMode={isDarkMode} />
       <Contact isDarkMode={isDarkMode} />
       <Footer isDarkMode={isDarkMode} />
-    </>
+    </div>
   );
 }

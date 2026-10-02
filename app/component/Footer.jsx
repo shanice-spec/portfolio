@@ -2,8 +2,7 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 
-// TODO: replace with the email address you want visitors to see.
-const EMAIL = 'your-email@example.com'
+const EMAIL = 'shanicejones567890@gmail.com'
 
 const Footer = ({ isDarkMode }) => {
   return (
@@ -19,8 +18,8 @@ const Footer = ({ isDarkMode }) => {
       <div className='text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6'>
         <p>© {new Date().getFullYear()} Shanice Jones. All rights reserved.</p>
         <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
-            <li><a href="https://github.com/" target='_blank' rel='noreferrer'>GitHub</a></li>
-            <li><a href="https://www.linkedin.com/" target='_blank' rel='noreferrer'>LinkedIn</a></li>
+            <li><a href="https://github.com/shanice-spec" target='_blank' rel='noreferrer'>GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/shanice-jones-574318271/" target='_blank' rel='noreferrer'>LinkedIn</a></li>
             <li><a href="#contact">Connect with me</a></li>
         </ul>
       </div>
